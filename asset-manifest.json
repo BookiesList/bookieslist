@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bookieslist/static/css/main.8a76307c.css",
+    "main.js": "/bookieslist/static/js/main.7df4b783.js",
+    "static/media/books.png": "/bookieslist/static/media/books.0816098a728409ccf216.png",
+    "static/media/instagram-logo-2.png": "/bookieslist/static/media/instagram-logo-2.f1b6ca8e90324b391e5f.png",
+    "static/media/teamph.png": "/bookieslist/static/media/teamph.514aec4a063d67e2d375.png",
+    "static/media/Handys.png": "/bookieslist/static/media/Handys.13bd2c1c3b69e3b87e96.png",
+    "static/media/headerbg.jpg": "/bookieslist/static/media/headerbg.7d9ffa7f447e7671e52b.jpg",
+    "static/media/logo.png": "/bookieslist/static/media/logo.1b9246d8bc6d73089e5d.png",
+    "static/media/Angie.jpg": "/bookieslist/static/media/Angie.b67a8c687ca3e331404e.jpg",
+    "index.html": "/bookieslist/index.html",
+    "main.8a76307c.css.map": "/bookieslist/static/css/main.8a76307c.css.map",
+    "main.7df4b783.js.map": "/bookieslist/static/js/main.7df4b783.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a76307c.css",
+    "static/js/main.7df4b783.js"
+  ]
+}
