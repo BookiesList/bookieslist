@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.Insight .Container {
+    display: flex;
+}
+
+.Insight .Container .Text {
+    width: 47%;
+    margin-left: 3%;
+}
+
+.Insight .Container .Text h2 {
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    margin: 7vh;
+}
+
+.Insight .Container .Text p {
+    color: black;
+    margin: 7vh;
+}
+
+.Insight .Container .Photo {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: 10vh;
+    justify-content: center;
+
+}
+
+.Insight .Insight {
+    padding-bottom: 15vh; 
+}
+
+.Insight .Dev {
+    padding-bottom: 15vh;
+    background-color: #AC5859A8;  
+}
+
+
+
+.Insight .Container .Photo .Me {
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+@media (max-width: 500px) {
+    .Insight .Container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Insight .Container .Text
+    {
+        width: 80%;
+    }
+    .Insight .Container .Photo
+    {
+        width: 70%;
+    }
+}

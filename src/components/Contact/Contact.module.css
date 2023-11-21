@@ -1,0 +1,97 @@
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4vw;
+    padding-top: 10vh;
+}
+
+.ContactBox {
+    background-color: #AC5859;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.Contact .ContactIcons {
+    display: flex;
+    margin-top: 1vh;
+    justify-content: space-between;
+}
+
+.ContactBox .Links {
+    padding: 3vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    border-top: 1px solid #FFFFFF;
+    height: 50vh;
+    justify-content: space-between;
+    display: flex;
+}
+
+.ContactBox .Links .LinksChild {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactBox .Links .LinksChild h2 {
+    margin-right: 10px;
+    order: -1;
+    font-size: x-large;
+}
+
+.ContactBox .Links .LinksChild ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ContactBox .Links .LinksChild li {
+    display: flex;
+    align-items: left;
+}
+
+.ContactBox .Links .LinksChild FaMailBulk,
+.ContactBox .Links .LinksChild FaAddressCard {
+    width: 25vw;
+    margin-right: 1vw;
+}
+
+.ContactBox .Links .LinksChild p {
+    margin: 5;
+    font-size: medium;
+}
+.ContactBox .Links .LinksChild a {
+    margin: 0;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.ContactBox .Copyright {
+    margin-top: 0;
+    margin-left: 40%;
+}
+
+@media (min-width: 768px) {
+    .Contact {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Contact .ContactIcons {
+        margin-top: 0;
+    }
+
+    .Contact .ContactIcons a {
+        margin: 0 0.5vw;
+    }
+
+    .ContactBox .Copyright {
+        margin-top: 0;
+        margin-left: 40%;
+    }
+}
+

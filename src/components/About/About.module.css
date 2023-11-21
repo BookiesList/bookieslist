@@ -1,0 +1,51 @@
+.AboutBookies .Container {
+    display: flex;
+}
+
+.AboutBookies .Container .Text {
+    width: 47%;
+    margin-left: 3%;
+}
+
+.AboutBookies .Container .Text h2 {
+    font-weight: 900;
+}
+
+.AboutBookies .Container .Photo {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: 10vh;
+    justify-content: center;
+
+}
+
+.AboutBookies .Container .Photo .Me {
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+.AboutBookies .Container .BooksPhoto {
+    display: flex;
+    width: 100vw;
+    margin-top: 10vh;
+    justify-content: center;
+
+}
+
+@media (max-width: 500px) {
+    .AboutBookies .Container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .AboutBookies .Container .Text
+    {
+        width: 80%;
+    }
+    .AboutBookies .Container .Photo
+    {
+        width: 70%;
+    }
+}

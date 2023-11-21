@@ -1,0 +1,153 @@
+/* NavBar.module.css */
+
+.NavBar {
+    background: #FFFFFF 50% ;
+    width: 100%;
+    height: calc(2.2rem + 2vw);
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.NavBar.navScrolled {
+    background: rgba(24, 24, 24, 0.9);
+}
+
+.NavBar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar nav ul li {
+    margin: 0 20px;
+}
+
+.NavBar nav ul li a {
+    text-decoration: none;
+    color: #AC5859;
+}
+
+.NavBar nav ul li a.selected {
+    border-bottom: 2px solid #743b3c;
+    transform: scale(1.1);
+}
+
+.NavBar a:hover {
+    border-bottom: 5px solid #743b3c;
+}
+
+.NavBar a:active {
+    color: #743b3c;
+}
+
+.NavBar a.active {
+    border-bottom: 5px solid #743b3c;
+    font-size: larger;
+}
+
+
+#about,
+#aboutus,
+#youtube,
+#contact {
+    margin-top: 80px;
+}
+
+@media (min-width: 1176px){
+    .NavBar .MobileNavigation .Hamburger {
+    display: none;
+    }
+}
+
+@media (max-width: 1175px) {
+    .NavBar .Navigation {
+        display: none;
+    }
+
+    .NavBar .Time {
+        margin-right: 7vw;
+        margin-top: -0.4vw;
+    }
+
+    .NavBar .MobileNavigation {
+        display: flex;
+        align-items: right;
+        padding: -0.4vw;
+    }
+
+    .NavBar .MobileNavigation .Hamburger {
+        position: absolute;
+        margin-top: -2.5vw;
+        margin-left: 5vw;
+        right: 1vw;
+        cursor: pointer;
+    }
+
+    .NavBar nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: calc(2.2rem + 1vw);
+        right: 0;
+        width: 20vw;
+        background-color: #181818;
+        border-top: 2px solid #743b3c;
+        border-radius: 10px;
+    }
+
+    .NavBar a:hover {
+        color: #743b3c
+    }
+}
+
+@media (max-width: 500px) {
+    .NavBar .MobileNavigation {
+        display: flex;
+        align-items: left;
+        padding: 3%;
+    }
+
+    .NavBar .MobileNavigation .Hamburger {
+        position: absolute;
+        margin-top: -4vw;
+        right: 1%;
+        cursor: pointer;
+    }
+
+    .NavBar nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: calc(2.2rem + 1vw);
+        right: 0vw;
+        width: 20vw;
+        background-color: #181818;
+        border-top: 2px solid #743b3c;
+        border-radius: 10px;
+        padding-right: 5vw;
+    }
+
+    .NavBar .Time {
+        margin-right: 50%;
+        margin-top: 1%;
+        font-size: 4vw;
+    }
+
+    #about,
+    #skills,
+    #youtube,
+    #contact {
+        margin-top: 10px;
+    }
+}
+

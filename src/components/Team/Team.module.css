@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.Team .Container {
+    display: flex;
+}
+
+.Team .Container .Text {
+    width: 47%;
+    margin-left: 3%;
+}
+
+.Team .Container .Text h2 {
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    margin: 7vh;
+}
+
+.Team .Container .Text p {
+    color: black;
+    margin: 7vh;
+}
+
+.Team .Container .Photo {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: 10vh;
+    justify-content: center;
+
+}
+
+.Team .Team {
+    padding-bottom: 15vh; 
+}
+
+.Team .Dev {
+    padding-bottom: 15vh;
+    background-color: #AC5859A8;  
+}
+
+
+
+.Team .Container .Photo .Me {
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+@media (max-width: 500px) {
+    .Team .Container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Team .Container .Text
+    {
+        width: 80%;
+    }
+    .Team .Container .Photo
+    {
+        width: 70%;
+    }
+}

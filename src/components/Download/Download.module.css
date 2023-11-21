@@ -1,0 +1,69 @@
+.Download {
+    background-color: #ffffff;
+    padding-bottom: 5%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.Download .Container {
+    display: flex;
+}
+
+.Download .Container .Text {
+    width: 47%;
+    margin-left: 3%;
+}
+
+.Download .Container .Text h2 {
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    margin: 7vh;
+}
+
+.Download .Container .Text p {
+    color: black;
+    margin: 7vh;
+    padding-bottom: 7vh;
+}
+
+.Download .Insta {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-top: 25vh;
+    justify-content: center;
+
+}
+
+.Download .Download {
+    padding-bottom: 15vh; 
+}
+
+.Download .welcome-section {
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.Download .Container .Photo .Me {
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
+@media (max-width: 500px) {
+    .Download .Container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Download .Container .Text
+    {
+        width: 80%;
+    }
+    .Download .Container .Photo
+    {
+        width: 70%;
+    }
+}
