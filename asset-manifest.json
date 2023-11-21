@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bookieslist/static/css/main.8a76307c.css",
-    "main.js": "/bookieslist/static/js/main.7df4b783.js",
+    "main.js": "/bookieslist/static/js/main.964d8298.js",
     "static/media/books.png": "/bookieslist/static/media/books.0816098a728409ccf216.png",
     "static/media/instagram-logo-2.png": "/bookieslist/static/media/instagram-logo-2.f1b6ca8e90324b391e5f.png",
     "static/media/teamph.png": "/bookieslist/static/media/teamph.514aec4a063d67e2d375.png",
@@ -11,10 +11,10 @@
     "static/media/Angie.jpg": "/bookieslist/static/media/Angie.b67a8c687ca3e331404e.jpg",
     "index.html": "/bookieslist/index.html",
     "main.8a76307c.css.map": "/bookieslist/static/css/main.8a76307c.css.map",
-    "main.7df4b783.js.map": "/bookieslist/static/js/main.7df4b783.js.map"
+    "main.964d8298.js.map": "/bookieslist/static/js/main.964d8298.js.map"
   },
   "entrypoints": [
     "static/css/main.8a76307c.css",
-    "static/js/main.7df4b783.js"
+    "static/js/main.964d8298.js"
   ]
 }
